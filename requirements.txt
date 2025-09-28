@@ -1,0 +1,25 @@
+# Multi-Agent Lead Management System Dependencies
+
+# Core Python libraries (usually included)
+asyncio
+datetime
+typing
+json
+logging
+dataclasses
+random
+
+# For production deployment (install these if needed):
+# google-cloud-adk>=1.0.0
+# fastapi>=0.68.0
+# uvicorn>=0.15.0
+# sqlalchemy>=1.4.0
+# redis>=3.5.0
+# celery>=5.2.0
+
+# For external integrations (add API keys to config):
+# requests>=2.26.0          # For REST API calls
+# aiohttp>=3.7.0           # For async HTTP requests
+# python-instagram>=1.3.0   # Instagram API integration
+# twilio>=7.0.0            # SMS functionality
+# sendgrid>=6.8.0          # Email sending
